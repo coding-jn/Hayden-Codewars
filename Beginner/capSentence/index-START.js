@@ -6,9 +6,13 @@ return the equivalent of the sentence when capitalised. E.g
 
 
 function capSentence(text) {
-   return text.toLowerCase().split(' ').map( e => e.split('')[0].toUpperCase() + e.substr(1)).join(' ')
+  // Code here
+  let allWords = text.toLowerCase().split(" ");
+  let capWords = [];
+  allWords.forEach((results) => {
+    capWords.push(results[0].toUpperCase() + results.slice(1));
+  });
+  return capWords.join(" ");
 }
 
-
-
-module.exports = capSentence
+module.exports = capSentence;

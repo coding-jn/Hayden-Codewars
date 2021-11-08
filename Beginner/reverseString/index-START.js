@@ -10,9 +10,8 @@ E.g reverseString('algorithms') // should return 'smhtirogla'
 
 
 function reverseString(text) {
-    return text.split('').reverse().join('')
+    let newText= text.split('')
+    return newText.reverse().join('')
 }
-
-
 
 module.exports = reverseString
