@@ -1,9 +1,12 @@
 # algo-challenge
 
-fizzBuzz - jean
-falsyBouncer - jean
-capSentence - jean
-mergeArrays - already filled
-vowelsCounter - ian need to check if its working
-reverse string - already filled 
-palindromChecker -
+1. capSentence 
+2. falsyBouncer 
+3. fibonacci 
+4. fizzBuzz
+5. isAnagram
+6. longestWord
+7. mergeArrays 
+8. reverseString
+9. vowelCounter
+10. whereIBelong
