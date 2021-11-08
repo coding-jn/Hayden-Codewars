@@ -1,12 +1,13 @@
 # algo-challenge
 
-1. capSentence 
-2. falsyBouncer 
-3. fibonacci 
-4. fizzBuzz
-5. isAnagram
-6. longestWord
-7. mergeArrays 
-8. reverseString
+1. reverseString
+2. cap sentence
+3. palindrome checker
+4. falsybouncer
+5. fizzBuzz
+6. isAnagram
+7. fibonacci
+8. longestWord
 9. vowelCounter
 10. whereIBelong
+
