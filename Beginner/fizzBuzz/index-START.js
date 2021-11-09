@@ -38,16 +38,4 @@ function fizzBuzz(n) {
     }
 }
 
-//if you want we can use the shorter way
-// whats the shorter way?
-
-/* console.log(
-    i % 3 == 0 && i % 5 == 0? 'fizzbuzz' :
-    i % 3 == 0 ? 'fizz' :
-    i % 5 == 0 ? 'buzz' : i
-)*/
-
-// how do we print lol ohhhhhhh gotchu 
-//console log thats why in the short way i wrote its going to console log every loop
-
 module.exports = fizzBuzz
