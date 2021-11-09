@@ -10,4 +10,3 @@
 8. longestWord
 9. vowelCounter
 10. whereIBelong
-
