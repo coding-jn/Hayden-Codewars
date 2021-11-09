@@ -5,7 +5,7 @@ test('fizzBuzz is a function', () => {
 });
 
 test('Calling fizzbuzz with `10` prints out 10 statements', () => {
-  fizzBuzz(10);
+  fizzBuzz(10); // th
 
   expect(console.log.mock.calls.length).toEqual(10);
 });

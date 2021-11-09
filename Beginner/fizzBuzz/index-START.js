@@ -5,22 +5,49 @@
     multiples of both three and five print “FizzBuzz”.
 */
 
+// PREP
+// params are n, any number from 1 to n
+// returning fizz if the number is divisible by 3
+// returning buzz if the number is divisible by 5
+// returning fizzbuzz if the nubmer is divisible for 15
+// example: 30 would return fizzbuzz
+
 function fizzBuzz(n) {
+    //looping through numbers 1 to n
     for (let i = 1; i <= n; i++) {
         // Is a multiple of 3 and 5?
-        if (i % 15 === 0) {
-            console.log('fizzbuzz')
+        // needs to go first because if you put it last it would
+        // never read fizzbuzz
+        if (i % 3 === 0 && i % 5 === 0) { 
+            console.log('fizzbuzz') 
+            print('FizzBuzz')
         } else if (i % 3 === 0) {
             // Is a multiple of 3?
             console.log('fizz')
+            print('Fizz')
         } else if (i % 5 === 0) {
             // Is a multiple of 5?
             console.log('buzz')
+            print('Buzz')
         } else {
             // Is neither of the above?
+            // going to return the same number
             console.log(i)
+            print(i)
         }
     }
 }
+
+//if you want we can use the shorter way
+// whats the shorter way?
+
+/* console.log(
+    i % 3 == 0 && i % 5 == 0? 'fizzbuzz' :
+    i % 3 == 0 ? 'fizz' :
+    i % 5 == 0 ? 'buzz' : i
+)*/
+
+// how do we print lol ohhhhhhh gotchu 
+//console log thats why in the short way i wrote its going to console log every loop
 
 module.exports = fizzBuzz

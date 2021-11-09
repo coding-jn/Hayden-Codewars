@@ -3,15 +3,17 @@ Given a string of text, write an algorithm that returns the text received in a r
 E.g reverseString('algorithms') // should return 'smhtirogla'
 */
 
-//p --> string of text
-//r --> reversed string
-//e -->  hello => olleh
-//p --> 
-
+// PREP 
+// the params we are passing through is a string of text, not nums 
+// we are returning the reversal of that string 
+// example is the string 'dog' should return 'god'
 
 function reverseString(text) {
-    let newText= text.split('')
-    return newText.reverse().join('')
+    // using the spread method to isolate all of the letters in the string
+    // then reversing the order of that string
+    // and then joining the word back togother
+    let reverse = [...text].reverse().join('')
+    return reverse
 }
 
 module.exports = reverseString
