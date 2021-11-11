@@ -1,6 +1,6 @@
 # Team Hayden Algo-Challenge
 
-Our attempts at solving algorithm challenges by Team Hayden!
+Team Hayden's attempts at solving algorithm challenges!
 
 **Source:** https://github.com/leonnoel/algo-challenge
 
