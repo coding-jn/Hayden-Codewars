@@ -1,6 +1,11 @@
 # Team Hayden Algo-Challenge
 
-**Completed With PREP**
+Our attempts at solving algorithm challenges by Team Hayden!
+
+**Source:** https://github.com/leonnoel/algo-challenge
+
+## Completed With PREP
+
 1. reverseString
 2. cap sentence
 3. palindrome checker
