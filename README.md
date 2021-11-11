@@ -1,5 +1,6 @@
-# algo-challenge
+# Team Hayden Algo-Challenge
 
+**Completed With PREP**
 1. reverseString
 2. cap sentence
 3. palindrome checker
